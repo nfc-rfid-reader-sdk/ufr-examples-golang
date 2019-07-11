@@ -10,7 +10,7 @@ import (
 	"strings"
 )
 
-var ufr_lib = syscall.NewLazyDLL("uFCoder-x86_64.dll")
+var ufr_lib = syscall.NewLazyDLL("lib/windows/x86_64/uFCoder-x86_64")
 
 func ReaderOpening(){
 	
